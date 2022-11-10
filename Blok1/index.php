@@ -58,6 +58,7 @@
                         <ul class="">Classes
                             <li class="header_item"><a href = "Classes/excercise 1.php" class ="header_link">classes1</a></li>
                             <li class="header_item"><a href = "Classes/excercise 2.php" class ="header_link">classes 2</a></li>
+                            <li class="header_item"><a href = "Classes/notes.php" class ="header_link">Notes</a></li>
                         </ul>
                         <ul class="">Exception handling 
                             <li class="header_item"><a href = "educative challenges/loops/challenge 1.php" class ="header_link">loop 1</a></li> 

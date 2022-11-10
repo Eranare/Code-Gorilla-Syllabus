@@ -31,13 +31,181 @@
         </nav>
     </header>
     <content class="main">
+<h1>Classes excercise 2</h1> <br>
 
 
 <?php 
+class Student {
+private $name= "";
+private $mark1=0;
+private $mark2=0;
 
 
+    public function __construct($na, $ma1, $ma2)
+    {    $this->name= $na;
+        $this->mark1= $ma1;
+        $this->mark2= $ma2;
 
-?>  
+        
+    }
+    public function getMarks($marknumber)
+    {
+        if ($marknumber ==1){
+            return $this->mark1;
+        }
+        return $this->mark2; //return correct answer here
+        
+    }
+    public function calcAverage()
+    {//incase a grade is missing
+        if( !is_numeric($this->mark1)||!is_numeric($this->mark2)){
+            echo "grade missing.";
+            return;
+        }
+
+        //write definition here
+        return ($this->mark1+$this->mark2)/2;
+        
+    }
+    //To output the private name
+    public function getName()
+    { 
+        return $this->name;
+    }
+}
+
+
+$stu1 = new Student("Bob",30,74);
+{
+echo "Name: ".$stu1->getName()."<br>";
+echo "Mark 1: " .$stu1->getMarks(1)."<br>";
+echo "Mark 2: ".$stu1->getMarks(2)."<br>";
+echo $stu1->calcAverage()."<br>";
+echo "Comment: Bob doing alright here. <br><br>";
+}
+//--------
+//self practice
+$stu2= new Student("Ethan", 100,99);
+{
+echo "Name: ".$stu2->getName()."<br>";    //gets private var name.
+echo "Mark 1: ".$stu2->getMarks(1)."<br>";
+echo "Mark 2: ".$stu2->getMarks(2)."<br>";
+echo "Average: ".$stu2->calcAverage()."<br>";
+echo"Comment: Look at this chad student.<br><br>";
+}
+
+$stu3= new Student("Rick", "NA",15);
+{
+echo "Name: ".$stu3->getName()."<br>";    
+echo "Mark 1: ".$stu3->getMarks(1)."<br>";
+echo "Mark 2: ".$stu3->getMarks(2)."<br>";
+echo "Average: ".$stu3->calcAverage()."<br>"; //interestingly, The word Average gets printed out After the function call.
+echo "Average: ";
+echo $stu3->calcAverage()."<br>"; //splitting the echos fixes that
+echo"Comment: Did this guy just skip the first exam.<br><br>";
+}
+
+//Maybe move the echos into the class?
+
+
+?>
+
+<br>
+<h4>Attempt at doing the same but from an array</h4>
+<?php 
+class Student2 {
+private $name= "";
+private $mark1=0;
+private $mark2=0;
+
+
+    public function __construct($na, $ma1, $ma2)
+    {    $this->name= $na;
+        $this->mark1= $ma1;
+        $this->mark2= $ma2;
+
+        
+    }
+    public function getMarks($marknumber)
+    {
+        if ($marknumber ==1){
+            return $this->mark1;
+        }
+        return $this->mark2; //return correct answer here
+        
+    }
+    public function calcAverage()
+    {//incase a grade is missing
+        if( !is_numeric($this->mark1)||!is_numeric($this->mark2)){
+            echo "grade missing.";
+            return;
+        }
+
+        //write definition here
+        return ($this->mark1+$this->mark2)/2;
+        
+    }
+    //To output the private name
+    public function getName()
+    { 
+        return $this->name;
+    }
+}
+$arrayStudents=  [ 
+    0 => [ 
+    "Bob",
+    30 ,
+    74 
+],
+1 => [
+    "Ethan", 
+    100,
+    99
+    
+],
+2 => [
+    "Rick", 
+    "NA" ,
+    15
+    
+]
+];
+
+
+$stu21 = new Student2 ($arrayStudents[0][0],$arrayStudents[0][1],$arrayStudents[0][2]);  
+//$stu21 = new Student2("Bob",30,74);
+{
+echo "Name: ".$stu21->getName()."<br>";
+echo "Mark 1: " .$stu21->getMarks(1)."<br>";
+echo "Mark 2: ".$stu21->getMarks(2)."<br>";
+echo $stu21->calcAverage()."<br>";
+echo "Comment: Bob doing alright here. <br><br>";
+}
+//--------
+//self practice
+$stu22 = new Student2 ($arrayStudents[1][0],$arrayStudents[1][1],$arrayStudents[1][2]);  
+//$stu2= new Student2("Ethan", 100,99);
+{
+echo "Name: ".$stu22->getName()."<br>";    //gets private var name.
+echo "Mark 1: ".$stu22->getMarks(1)."<br>";
+echo "Mark 2: ".$stu22->getMarks(2)."<br>";
+echo "Average: ".$stu22->calcAverage()."<br>";
+echo"Comment: Look at this chad student.<br><br>";
+}
+$stu23 = new Student2 ($arrayStudents[2][0],$arrayStudents[2][1],$arrayStudents[2][2]);  
+//$stu3= new Student2("Rick", "NA",15);
+{
+echo "Name: ".$stu23->getName()."<br>";    
+echo "Mark 1: ".$stu23->getMarks(1)."<br>";
+echo "Mark 2: ".$stu23->getMarks(2)."<br>";
+//echo "Average: ".$stu23->calcAverage()."<br>"; //interestingly, The word Average gets printed out After the function call.
+echo "Average: ";
+echo $stu3->calcAverage()."<br>"; //splitting the echos fixes that
+echo"Comment: Did this guy just skip the first exam.<br><br>";
+}
+
+?>
+
 
     </content>
     <footer>

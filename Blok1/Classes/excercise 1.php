@@ -31,10 +31,43 @@
         </nav>
     </header>
     <content class="main">
-    <h1>Classes excercise 1</h1>
+    <h1>Classes excercise 1</h1> <br>
+
+<?php
+class Triangle {
+
+    public $length=0;
+    public $height=0;
+    public function area(){return $this->length*$this->height/2;}
+ };
+//define your class here
+
+
+// name your class Triangle
+//name your function area
+
+  
+
+//This is a test function. Do not change it.  
+function test($length, $height) {
+
+  $answer=0;
+  $obj = new Triangle;
+  $obj->length= $length;
+  $obj->height= $height;
+  echo "Area: ".$obj->area();
+  $answer = $obj->area();
+
+  return $answer;
+}
+test(4,5);
+?>
+
+
+
 
 <?php 
-
+getMarks(1);
 
 
 ?>  
