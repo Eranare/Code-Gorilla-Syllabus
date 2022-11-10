@@ -1,0 +1,23 @@
+er zijn ingebouwde functies en zelfgemaakte(user defined) functies
+een functie is een stuk code dat meerdere keren op verschillende momenten gebruikt kan worden, maar niet van zichzelf runt, een functie moet geroepen worden met een functiecall functie();
+arguments worden gespecifeerdt in de haakjes van een functie,  met arguments kun je andere variablen doorpassen naar de functie zodat t binnen de functie gebruikt kan worden.
+er zit geen maximum aan het aantal arguments binnen een functie zolang je ze maar scheidt met een ,
+je kunt dus ook een functie argument specifiereen in de call
+als de function call geen arguments heeft word de default arguement (in de declaratie van de functie) gebruikt.
+om een waarde van een variable te returnen, typ je letterlijk het woord return gevold door variable ;
+met returns kun je een functie bijvoorbeeld een simpele som laten maken met variables die eerder ergens wegkwamen en dan de uitkomst in de functie elders weer gebruiken.
+zonder de return blijft de som en uitkomst alleen binnen de functie.
+
+W3 opdrachten:
+
+ex1: 
+function myFunction()
+
+ex2:
+myFunction();
+
+ex3:
+$fname;
+
+ex4:
+return  $lname;

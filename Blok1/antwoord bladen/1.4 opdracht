@@ -1,0 +1,5 @@
+Comments zijn er voor verduidelijking van de code voor menselijke lezers, voor zowel anderen te laten begrijpen wat er gebeurt in de code als een geheugensteen voor de schrijver(s) zelf.
+ook kun je tijdelijke lappen code tijdelijk commenten voor debuggen etc.
+
+je kunt single lines wegcommenten met // of # (zal het bij // houden zelf)
+en hele lappen code met /* */
