@@ -10,39 +10,7 @@
                 <li class="header_item"><a href = "loops.php" class="header_link">Loops </a></li>
                 <li class="header_item"><a href = "functions.php" class="header_link">Functions </a></li>
                 <li class="header_item"><a href = "arrays.php" class="header_link">Arrays </a></li>
-                <div class="header_item dropdown">
-                <li class="header_item  dropdown"><a class="header_link">Educative</a></li>
                 
-                
-                
-                    
-                    <ul class="dropdown-content">    
-                        <ul class="">Conditionals 
-                            <li class="header_item"><a href = "educative challenges/conditional statements/challenge 1.php" class ="header_link">conditional statement 1</a></li>
-                            <li class="header_item"><a href = "educative challenges/conditional statements/challenge 2.php" class ="header_link">conditional statement 2</a></li>
-                        </ul>
-                        <ul class="">Loops  
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 1.php" class ="header_link">loop 1</a></li> 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 2.php" class ="header_link">loop 2</a></li>
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 3.php" class ="header_link">loop 3</a></li>
-                        </ul>
-                        <ul class="">Functions 
-                            <li class="header_item"><a href = "educative challenges/functions/challenge 1.php" class ="header_link">functions 1</a></li> 
-                            <li class="header_item"><a href = "educative challenges/functions/challenge 2.php" class ="header_link">function 2</a></li>
-                            <li class="header_item"><a href = "educative challenges/functions/challenge 3.php" class ="header_link">function 3</a></li>
-                            <li class="header_item"><a href = "educative challenges/functions/notes.php" class ="header_link">notes</a></li>
-                        </ul>
-                        <ul class="">Strings 
-                            <li class="header_item"><a href = "educative challenges/strings/challenge 1.php" class ="header_link">strings 1</a></li>
-                            <li class="header_item"><a href = "educative challenges/strings/notes.php" class ="header_link">notes</a></li> 
-                        </ul>
-                        <ul class="">Arrays 
-                            <li class="header_item"><a href = "educative challenges/arrays/challenge 1.php" class ="header_link">Array 1</a></li>
-                            <li class="header_item"><a href = "educative challenges/arrays/challenge 2.php" class ="header_link">Array 2</a></li>
-                            <li class="header_item"><a href = "educative challenges/arrays/notes.php" class ="header_link">Notes</a></li> 
-                        </ul>
-                    </ul>
-                </div>    
             </ul>
 
         </nav>

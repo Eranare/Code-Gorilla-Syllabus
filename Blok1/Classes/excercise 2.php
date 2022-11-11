@@ -21,8 +21,6 @@
                         </ul>
                         <ul class="">Exception Handling  
                             <li class="header_item"><a href = "exception notes.php" class ="header_link">Exception Handling notes</a></li> 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 2.php" class ="header_link">loop 2</a></li>
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 3.php" class ="header_link">loop 3</a></li>
                         </ul>
                     </ul>
                 </div>        
@@ -182,7 +180,7 @@ echo $stu21->calcAverage()."<br>";
 echo "Comment: Bob doing alright here. <br><br>";
 }
 //--------
-//self practice
+
 $stu22 = new Student2 ($arrayStudents[1][0],$arrayStudents[1][1],$arrayStudents[1][2]);  
 //$stu2= new Student2("Ethan", 100,99);
 {
@@ -205,7 +203,7 @@ echo"Comment: Did this guy just skip the first exam.<br><br>";
 }
 
 ?>
-
+<br> array as object worked
 
     </content>
     <footer>

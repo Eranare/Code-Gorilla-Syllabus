@@ -61,8 +61,7 @@
                             <li class="header_item"><a href = "Classes/notes.php" class ="header_link">Notes</a></li>
                         </ul>
                         <ul class="">Exception handling 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 1.php" class ="header_link">loop 1</a></li> 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 2.php" class ="header_link">loop 2</a></li>
+                        <li class="header_item"><a href = "Classes/exception notes.php" class ="header_link">Exception Handling notes</a></li> 
 
                         </ul>
 
@@ -86,29 +85,16 @@ echo ("<br>");
 
 ?>  
 
-<h1>Temporary links</h1>
+<h1>Bit empty here</h1>
 <br>
-<p> Was a bit of a hackjob to put the Classes links up there in the menu, should figure out a better way. for now it's at least accessible from the index at least.
+ 
+Finished the basic Php module, but I will need to redo both assessments.<br>
+Shame it doesn't show at all what one did wrong. all 3 coding excercises were a bit of a pain for me to do right on the go though.<br>
+The Classes Assessment especially seemed to throw new to me stuff in.<br>
+Calculating averages in a class function from an array.<br>
+Something to keep in mind? More practice requires I guess.
 
-<div class="header_item dropdown">
-                <li class="header_item  dropdown"><a class="header_link">Classes</a></li>
-                
-                
-                
-                    
-                    <ul class="dropdown-content">    
-                        <ul class="">Classes
-                            <li class="header_item"><a href = "Classes/excercise 1.php" class ="header_link">classes1</a></li>
-                            <li class="header_item"><a href = "Classes/excercise 2.php" class ="header_link">classes 2</a></li>
-                        </ul>
-                        <ul class="">Exception handling 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 1.php" class ="header_link">loop 1</a></li> 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 2.php" class ="header_link">loop 2</a></li>
 
-                        </ul>
-
-                    </ul>
-                </div>  
     </content>
     <footer>
     </footer>

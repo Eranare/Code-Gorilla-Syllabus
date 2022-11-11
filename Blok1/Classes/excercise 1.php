@@ -21,8 +21,6 @@
                         </ul>
                         <ul class="">Exception Handling  
                             <li class="header_item"><a href = "exception notes.php" class ="header_link">Exception Handling notes</a></li> 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 2.php" class ="header_link">loop 2</a></li>
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 3.php" class ="header_link">loop 3</a></li>
                         </ul>
                     </ul>
                 </div>        
@@ -62,12 +60,8 @@ function test($length, $height) {
 }
 test(4,5);
 ?>
-
-
-
-
 <?php 
-getMarks(1);
+
 
 
 ?>  
