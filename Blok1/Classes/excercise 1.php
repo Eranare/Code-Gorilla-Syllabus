@@ -12,7 +12,7 @@
                 <li class="header_item"><a href = "../functions.php" class="header_link">Functions </a></li>
                 <li class="header_item"><a href = "../arrays.php" class="header_link">Arrays </a></li>
                 <div class="header_item dropdown">
-                    <li class="header_item  dropdown"><a class="header_link">Classes</a></li>    
+                    <li class="header_item  dropdown"><a class="header_link">Module 2: Classes</a></li>    
                     <ul class="dropdown-content">    
                         <ul class="">Conditionals 
                             <li class="header_item"><a href = "excercise 1.php" class ="header_link">excercise 1</a></li>

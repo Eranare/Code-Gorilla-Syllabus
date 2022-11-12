@@ -13,10 +13,12 @@
                 <li class="header_item"><a href = "arrays.php" class="header_link">Arrays </a></li>
                 
             </ul>
-            <br>  
+            <br>
+            
             <ul class="header_list2">  
                 <div class="header_item dropdown">
-                <li class="header_item  dropdown"><a class="header_link">Educative</a></li>
+                Educative  
+                <li class="header_item  dropdown"><a class="header_link">Module 2</a></li>
                 
                 
                 
@@ -49,7 +51,7 @@
                     </ul>
                 </div>
                 <div class="header_item dropdown">
-                <li class="header_item  dropdown"><a class="header_link">Classes</a></li>
+                <li class="header_item  dropdown"><a class="header_link">Module 2: Classes</a></li>
                 
                 
                 
@@ -84,10 +86,13 @@ echo ("<br>");
 
 
 ?>  
-
-<h1>Bit empty here</h1>
+<h1>Module 3: </h1>
 <br>
- 
+    <a href="Module 3/Public/index.html"> Module 3 stuff</a>
+<br>
+<h1>Bit empty below here</h1>
+<br>
+Personal notes: 
 Finished the basic Php module, but I will need to redo both assessments.<br>
 Shame it doesn't show at all what one did wrong. all 3 coding excercises were a bit of a pain for me to do right on the go though.<br>
 The Classes Assessment especially seemed to throw new to me stuff in.<br>

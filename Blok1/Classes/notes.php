@@ -12,7 +12,7 @@
                 <li class="header_item"><a href = "../functions.php" class="header_link">Functions </a></li>
                 <li class="header_item"><a href = "../arrays.php" class="header_link">Arrays </a></li>
                 <div class="header_item dropdown">
-                    <li class="header_item  dropdown"><a class="header_link">Classes</a></li>    
+                    <li class="header_item  dropdown"><a class="header_link">Module 2: Classes</a></li>    
                     <ul class="dropdown-content">    
                         <ul class="">Conditionals 
                             <li class="header_item"><a href = "excercise 1.php" class ="header_link">excercise 1</a></li>
@@ -21,8 +21,6 @@
                         </ul>
                         <ul class="">Exception Handling  
                             <li class="header_item"><a href = "exception notes.php" class ="header_link">Exception Handling notes</a></li> 
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 2.php" class ="header_link">loop 2</a></li>
-                            <li class="header_item"><a href = "educative challenges/loops/challenge 3.php" class ="header_link">loop 3</a></li>
                         </ul>
                     </ul>
                 </div>        
