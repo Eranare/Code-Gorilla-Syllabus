@@ -59,6 +59,7 @@ function test($length, $height) {
   return $answer;
 }
 test(4,5);
+test(15,2);
 ?>
 <?php 
 

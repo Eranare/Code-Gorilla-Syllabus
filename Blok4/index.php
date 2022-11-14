@@ -84,22 +84,15 @@ echo " Hello world <br>";
 //opdracht1
 echo ("<br>");
 
-?>
-<br>
-<h4><a href="antwoord bladen/antwoord bladen Rick.zip">Answer sheets (NL)</a></h4>
 
+?>  
 <h1>Module 3: </h1>
 <br>
     <a href="Module 3/Public/index.html"> Module 3 stuff</a>
 <br>
 <h1>Bit empty below here</h1>
 <br>
-Personal notes: 
-Finished the basic Php module, but I will need to redo both assessments.<br>
-Shame it doesn't show at all what one did wrong. all 3 coding excercises were a bit of a pain for me to do right on the go though.<br>
-The Classes Assessment especially seemed to throw new to me stuff in.<br>
-Calculating averages in a class function from an array.<br>
-Something to keep in mind? More practice requires I guess.
+
 
 
     </content>
