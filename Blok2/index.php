@@ -1,6 +1,6 @@
 <head>
     <title>Index</title>
-    <link rel="stylesheet" href="../Blok1/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="header">
@@ -75,17 +75,7 @@
         </nav>
     </header>
     <content class="main">
-<?php 
-echo ("<h1>Start Page<br></h1>");
-print("PHP Works!<br>") ; 
-
-echo " Hello world <br>";
-
-//opdracht1
-echo ("<br>");
-
-
-?>
+<h1>Blok 2</h1>
 <h4><a href="Antwoordblad/Sheet.php">AnswerSheet</a></h4>  
 <h1>Module 3: </h1>
 <br>

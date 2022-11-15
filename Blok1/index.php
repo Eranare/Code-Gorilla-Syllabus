@@ -75,6 +75,11 @@
         </nav>
     </header>
     <content class="main">
+    <h1>Blok 1</h1>
+    <h4><a href="antwoord bladen/antwoord bladen Rick.zip" class ="sheet_link">Answer sheets (ZIP file/NL)</a></h4>
+    <h4><a href="antwoord bladen/sheet.php" class ="sheet_link">Answer sheet (ENG)</a> (not available yet)</h4>
+    <br>
+
 <?php 
 echo ("<h1>Start Page<br></h1>");
 print("PHP Works!<br>") ; 
@@ -86,7 +91,7 @@ echo ("<br>");
 
 ?>
 <br>
-<h4><a href="antwoord bladen/antwoord bladen Rick.zip">Answer sheets (NL)</a></h4>
+
 
 <h1>Module 3: </h1>
 <br>

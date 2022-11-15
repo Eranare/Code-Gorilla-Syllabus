@@ -1,9 +1,12 @@
+<head>
+<link rel="stylesheet" href="../styles/style.css">
 
-<link rel="stylesheet" href="../../Blok1/styles/style.css">
+
+</head>
+<body>
 
 <a href="../index.php">Back</a><br>
-
-
+    <content class="Answersheet">
 
 Name: Rick de Lange <br>
 Group: bootcamp Najaar 2022<br>
@@ -131,15 +134,14 @@ The subclass will inherit all properties and methods existing within the parent 
 <?php
 //pummel being inherited from melee
 class pummel extends melee{
-   // public $damage=0;
-    //public $pummelThrow =0;
+
     public function pmlthrow(){
        echo ("Pummel Throw with ".$this->name." deals ". $this->damage  *50 ." damage! <br>" );       
     }
 }
 $weap1Pml =new pummel("Sword", "Slashing", 15, 1.5);
 $weap1Pml ->pmlthrow();
-//echo ("Pummel Throw deals ".$weap1Pml->pmlthrow($damage) ." damage" );
+
 ?>
 </code>
 <br>
@@ -171,14 +173,70 @@ $weap2Pml ->msg();
 <br>
 //----------------------------------------<br>
 1.6 Class Constants<br>
-
+<p>
+A Class Constant is pretty similar to Constant variables. they can not be changed at all.
+A constant is declared with the keyword const, and while const are case sensitive, it is recommended to name constants in full uppercase letters,<br> for the sake of readability and consistency
+It can not be changed or modified inside or outside the Class scope so it's uses may be niche.<br><br> To access a Class Constant from outside the class, one would use: <br>
+<code>
+className::CONST_NAME;
+</code>
+<br>
+To access it from within, one would use: <br>
+<code>
+self::CONST_NAME;
+</code>
+<br>
+</p>
 <br>
 //----------------------------------------<br>
 1.7 Static Methods<br>
+
+Normal methods require an Object made in their class to call
+Static Methods are callable without an Object.<br>
+To write one: <code>Access_Modifier static Method()</code>.<br>
+To call it: <code>Classname::Method();</code>
+<br> 
+<code>
+<?php
+class message{
+    public static function msg(){
+        echo ("'This echo is part of a method within a class but is printed without an Object'"); 
+    }
+} 
+ message::msg();
+?>
+</code>
+<br>
 
 <br>
 //----------------------------------------<br>
 1.8 Static Properties<br>
 
+Normal Properties also require an Object to be used.<br>
+
+To declare one: <code>Access_Modifier static $Propertyname= value; </code><br>
+To call it within a Class: <code>self::$Propertyname;</code><br>
+To call it without a Class: <code>Classname::$Propertyname;</code><br>
+<br>
+<code>
+<?php
+class statClass{
+    public static $statProp = 'this string is part of $statProp';
+    public static $statProp2 ='this string is part of $statprop2';
+    public static function prnt124(){
+
+    
+    echo("Message from within the class". self::$statProp."<br>");
+    }
+}
+statClass::prnt124();
+echo ("Message from outside the class: ". statClass::$statProp2. "<br>");
+?>
+</code>
 <br>
 //----------------------------------------<br>
+
+    </content>
+    <footer>
+    </footer>
+</body>
