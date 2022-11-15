@@ -249,7 +249,7 @@ class message{
         </th>
         <th>
 Normal Properties also require an Object to be used.<br>
-
+Whereas static properties do not.<br>
 To declare one: <code>Access_Modifier static $Propertyname= value; </code><br>
 To call it within a Class: <code>self::$Propertyname;</code><br>
 To call it without a Class: <code>Classname::$Propertyname;</code><br>

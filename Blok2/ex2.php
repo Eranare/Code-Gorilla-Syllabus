@@ -25,7 +25,7 @@
 <h1>EX 2</h1>
   
 <br>
-<code>With Static function:</code>
+Input name: <br>
 <form action="" method="post">
             <input type="text" name="input" maxlength="15" placeholder="Insert Name"/> 
             <input type="submit" name="submitButton" value=""></input>

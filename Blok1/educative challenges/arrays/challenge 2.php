@@ -109,8 +109,7 @@ echo ("</div>");
     <footer>
         nicked background from: https://gist.github.com/Techgokul/e434ea602bda6840d5ebf95c4be5ebeb
     </footer>
-    
-</body>
+
 <!------------------------->
 <script>
 
@@ -166,3 +165,5 @@ function draw()
 setInterval(draw, 33);
     </script>
 <!--------------------------------------->
+    
+</body>
