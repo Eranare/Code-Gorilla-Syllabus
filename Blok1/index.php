@@ -99,12 +99,17 @@ echo ("<br>");
 <br>
 <h1>Bit empty below here</h1>
 <br>
+
+<br>
+
+<br>
+<!--
 Personal notes: 
 Finished the basic Php module, but I will need to redo both assessments.<br>
 Shame it doesn't show at all what one did wrong. all 3 coding excercises were a bit of a pain for me to do right on the go though.<br>
 The Classes Assessment especially seemed to throw new to me stuff in.<br>
 Calculating averages in a class function from an array.<br>
-Something to keep in mind? More practice requires I guess.
+Something to keep in mind? More practice requires I guess. -->
 
 
     </content>

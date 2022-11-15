@@ -1,3 +1,8 @@
+<?php
+//php class which displays a message with a $variable
+
+
+?>
 <head>
     <title>Index</title>
     <link rel="stylesheet" href="styles/style.css">
@@ -17,10 +22,45 @@
         </nav>
     </header>
     <content class="main">
-<h1>Blok 2</h1>
-<h4><a href="Antwoordblad/Sheet.php">AnswerSheet</a></h4>  
+<h1>EX 2</h1>
+  
+<br>
+<code>With Static function:</code>
+<form action="" method="post">
+            <input type="text" name="input" maxlength="15" placeholder="Insert Name"/> 
+            <input type="submit" name="submitButton" value=""></input>
+</form>
+<?php 
 
+$name = "";
 
+if(isset($_POST['submitButton'])) {
+    $name = $_POST['input'];
+    varname::ini($name);
+}
+
+class varname{
+
+        static public function ini($name){ 
+            echo ("<code>With Static function:</code> Hello All, I am $name. <br>");
+        }
+
+}
+
+class varname2 {
+    public $msgname= "";
+    public function __construct($name2){
+        $this->msgname = $name2;
+    }
+    public function msg(){
+        echo ("<code>With an Object created from Input:</code>Hi my name is ".$this->msgname.".<br>");
+    } 
+}
+if(isset($_POST['submitButton'])) {
+$name2 = new varname2($_POST['input']);
+$name2 ->msg();
+}
+?>
 
     </content>
     <footer>
