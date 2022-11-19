@@ -34,7 +34,7 @@
             <p class="text paragraph">
                 <?php
                     // ALL THE CLASSES WITH THEIR BEHAVIOR GO IN HERE.
-                    require 'models/Boat.php';
+                   // require 'models/Boat.php';
                     require 'models/rentBoat.php';
                     // YOUR APP IS RUN FROM A MAIN FILE.
                     require 'controllers/app.php'
