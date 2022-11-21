@@ -13,6 +13,7 @@
     <div class="flex wrapper">
         <!-- COPY THE ASSIGNMENT YOU CHOOSE TO PRACTICE HERE. -->
         <div class="container">
+                <a href="../../index.php"> back</a>
             <p class="text heading">Opdracht 10 - Boatrent </p>
             <p class="text paragraph">
             Een bedrijf verhuurt speedboten. Voor Één bepaalde dag wordt elk van de tien aanwezige speedboten hoogstens 1 keer verhuurd. 

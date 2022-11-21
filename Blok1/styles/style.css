@@ -22,7 +22,17 @@ html {
     background-color:rgba(75, 54, 133, 0.521);
     
   }
+/* Sheet__________________*/
+table, th, td {
+    font-size: 1.25rem;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
 
+.question {
+width: 20%;
+   
+}
 
 /*------------nav--------------------- */
 .header {

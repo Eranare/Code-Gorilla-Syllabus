@@ -19,12 +19,10 @@
     <content class="main">
 <h1>Blok 2</h1>
 <h4><a href="Antwoordblad/Sheet.php">Answer Sheet</a></h4>  
-
-
 <h4><a href="../rsrc/Template App/index.php"> Template </h4>
-
-
+<h4><a href="../rsrc/Demo app/index.php"> Template </h4>
 <a href="finalex/gone boating/index.php">Boating</a>
+<a href="#" >Laracasts</a>
     </content>
     <footer>
     <uL class="header_list">
