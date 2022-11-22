@@ -7,7 +7,7 @@
     $catering = new Catering();
 
     // CREATE A NEW CATERING PERIOD.
-    $catering = new Catering("01-05-2022", "03-05-2022");
+   // $catering = new Catering("01-05-2022", "03-05-2022");
 
     // CREATE A NEW CUSTOMER
     $tomi = new Customer("Tomi");

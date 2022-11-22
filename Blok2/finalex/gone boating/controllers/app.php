@@ -38,7 +38,6 @@ foreach($boat as $aRentBoat =>$a){
         $boathighestfuel= $boat[$aRentBoat]->boat(); //boatnumber
         $fuelused=$boat[$aRentBoat]->fuel;
     }
-    
 
     //if for shortest rent duration
     if($timerented >=  $boat[$aRentBoat]->getRentTime())
