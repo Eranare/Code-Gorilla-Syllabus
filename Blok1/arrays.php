@@ -20,6 +20,7 @@
 echo ("<h1>Arrays</h1><br>");
 
 echo ("<h2>Ex 1<br></h2><br>");
+echo ("<h3>Write a script which will display the following string. <br> The words 'red', 'green' and 'white' will come from \$color.</h3>");
 function nixonthing(){
 $color = array('white', 'green', 'red', 'blue', 'black');
 echo ("The memory of that scene for me is like a frame of film forever frozen at that moment: the ".$color[2]." carpet, the ".$color[1]." lawn, the ".$color[0]." house, the leaden sky. The new president and his first lady. Aroo.<br> ");
@@ -29,7 +30,7 @@ echo ("<br>- Richard M. Nixon");
 nixonthing();
 
 echo ("<h2>Ex 2<br></h2><br>");
-
+echo ("Write a PHP script which will display the colors in the following way: <br> ");
 function arraylist(){
     $color = array('white', 'green', 'red');
     echo("<ul style='list-style-type:disc' class='colorlist';><li>$color[1]</li><li>$color[2]</li><li>$color[0]</li></ul>");
@@ -37,6 +38,7 @@ function arraylist(){
 arraylist();
 //--------------
 echo ("<h2>Ex 3<br></h2><br>");
+echo ("<h3>Create a PHP script which displays the capital and country name from the below array \$ceu. Sort the list by the capital of the country.</h3>");
 function countrycity(){
     $ceu = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg", "Belgium"=> "Brussels", "Denmark"=>"Copenhagen", "Finland"=>"Helsinki", "France" => "Paris", "Slovakia"=>"Bratislava", "Slovenia"=>"Ljubljana", "Germany" => "Berlin", "Greece" => "Athens", "Ireland"=>"Dublin", "Netherlands"=>"Amsterdam", "Portugal"=>"Lisbon", "Spain"=>"Madrid", "Sweden"=>"Stockholm", "United Kingdom"=>"London", "Cyprus"=>"Nicosia", "Lithuania"=>"Vilnius", "Czech Republic"=>"Prague", "Estonia"=>"Tallin", "Hungary"=>"Budapest", "Latvia"=>"Riga", "Malta"=>"Valetta", "Austria" => "Vienna", "Poland"=>"Warsaw") ;
 
@@ -76,6 +78,7 @@ function countrycity(){
     }
 countrycity();
 echo ("<h2>Ex 4<br></h2><br>");
+echo ("<h3>Write a PHP script to calculate and display average temperature, five lowest and highest temperatures.</h3>");
 function temparray(){
 $temp = array(78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 81, 76, 73,68, 72, 73, 75, 65, 74, 63, 67, 65, 64, 68, 73, 75, 79, 73);
 $avg =0 ;
@@ -117,7 +120,7 @@ temparray();
 
 //----------
 echo ("<h2>Ex 5<br></h2><br>");
-
+echo ("<h3>Write a PHP script that displays the highest temperature that day and which city this was in.</h3>");
 
 function weeklytemps(){
 

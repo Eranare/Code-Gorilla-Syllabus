@@ -20,8 +20,9 @@
 echo ("<h1>Functionality</h1><br>");
 
 echo ("<h2>Ex 1<br></h2><br>");
+echo ("<h3>Write a function to check whether a number is prime or not.</h3><br>");
 //Range array that prints out only the primes
-echo ("<h3>Primes for 1-100 method: </h3><br>". "Click button to print the prime numbers for 1-100<br>");
+echo ("<h4>Primes for 1-100 method: </h4><br>". "Click button to print the prime numbers for 1-100<br>");
 ?>
 <form action="" method="post">
 <input type="submit" name="activateButton"/>
@@ -65,7 +66,7 @@ buttonpressed();
 //onetohundred();
 //input, function to check if input is prime or not, print input+result;
 
-echo("<h3>Insert number to check if its a prime number</h3>");
+echo("<h4>Insert number to check if its a prime number</h4>");
 ?>
 <form action="" method="post">
 Insert Number: <input type="number" name="inputNumber"/><br>
@@ -141,6 +142,7 @@ echo ("</table>");
 }
 primesGraphic();
 echo ("<h2>Ex 2<br></h2><br>");
+echo ("<h3>Write a function to reverse a string.</h3><br>")
 ?>
 <form action="" method="post">
 String to reverse: <input type="text" name="inputString"/><br>
@@ -160,6 +162,7 @@ function reversestring(){
 reversestring();
 
 echo ("<h2>Ex 3<br></h2><br>");
+echo ("<h3>Write a PHP function that checks whether a string is all lowercase.</h3><br>");
 ?>
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 <form action="" method="post">
@@ -199,6 +202,7 @@ function lowercase(){
 
 lowercase();
 echo ("<h2>Ex 4<br></h2><br>");
+echo ("<h3>Write a function to sort an array. </h3><br>");
 ?>
 
 <?php
@@ -222,6 +226,7 @@ function arraySort(){
 arraySort();
 
 echo ("<h2>Ex 5<br></h2><br>");
+echo ("<h3>Write a PHP function that checks whether a person is eligible to vote.</h3><br>")
 ?>
 <form action="" method="post">
 enter name and age: <input type="text" name="inputName"  pattern="[A-Za-z]{2,15}" />

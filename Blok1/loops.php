@@ -20,8 +20,9 @@
 echo ("<h1>Thrown for a Loop<br></h1>");
 echo ("<br>");
 echo ("<h2>Ex 1<br></h2>");
+echo ("<h3>Create a script that displays 1-2-3-4-5-6-7-8-9-10 on one line. There will be no hyphen(-) at starting and ending position.: </h3>");
 function array1to10(){
-    echo ("<h3>array 1-2... -8-9-10 etc:</h3> <br>");
+    echo ("<h4>array 1-2... -8-9-10 etc:</h4> <br>");
     $onetoten = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
     for ($i=0; $i< count($onetoten); $i++ )
@@ -34,7 +35,7 @@ function array1to10(){
         }
     }
     //range is blijkbaar ook een optie
-    echo ("<br><h3>array met range: </h3><br>");
+    echo ("<br><h4>array met range: </h4><br>");
     $onetoten2 = range(1,10,1);
     for ($i=0; $i< count($onetoten); $i++ )
     {
@@ -50,8 +51,9 @@ function array1to10(){
 array1to10();
 //opdracht2
 echo ("<h2>Ex 2<br></h2>");
+echo ("<h3>Create a script using a for loop to add all the integers between 0 and 30 and display the total. </h3><br>");
 function arraysum1to30(){
-    echo("<h3>summing up within an array:</h3><br>");
+    echo("<h4>summing up within an array:</h4><br>");
     $onetothirty = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30);
     $sum = 0;
     for ($i=0; $i< count($onetothirty); $i++)
@@ -61,14 +63,14 @@ function arraysum1to30(){
         }
     echo ($sum);
 //range versie
-    echo ("<br><h3>summing up within an array but now using range: </h3><br>");
+    echo ("<br><h4>summing up within an array but now using range: </h4><br>");
     $onetothirtyrange = range (1, 30, 1);
     $sum2 =0;
     for($i=0; $i< count($onetothirtyrange); $i++){
         $sum2 = $sum2 + $onetothirty[$i];
         }
     echo ($sum2);
-    echo ("<br><h3>using array_sum():</h3><br>");
+    echo ("<br><h4>using array_sum():</h4><br>");
     echo array_sum($onetothirtyrange);
 }
 arraysum1to30();
