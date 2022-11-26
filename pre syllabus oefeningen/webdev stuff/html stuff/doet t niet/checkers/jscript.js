@@ -93,7 +93,7 @@ function resetSelectedPieceProperties() {
     selectedPiece.minusEighteenthSpace = false;
 }
 
-function getSelectedPIece() {
+function getSelectedPiece() {
     selectedPiece.pieceId = parseInt(event.target.id);
     selectedPiece.indexOfBoardPiece = findPiece(selectedPiece.pieceId);
     isPieceKing();
@@ -103,7 +103,7 @@ function getSelectedPIece() {
 //givePiecesEventListeners();
 
 function isPieceKing() {
-    if (document.getElementById(selectedPiece.pieceId).classList.constains("king")) {
+    if (document.getElementById(selectedPiece.pieceId).classList.contains("king")) {
         selectedPiece.isKing = true;
     } else {
         selectedPiece.isKing = false;
@@ -135,14 +135,14 @@ function checkAvailableJumpSpaces() {
     if (turn) {
         if (board[selectedPiece.indexOfBoardPiece + 14] ===null 
         && cells[selectedPiece.indexOfBoardPiece + 14].classList.contains("noPieceHere") !== true
-        && viard[selectedPiece.indexOfBoardPiece + 7 ] >=13 ){
+        && board[selectedPiece.indexOfBoardPiece + 7 ] >=13 ){
             selectedPiece.fourtheenthSpace =true;
         }
 
     } else {
         if (board[selectedPiece.indexOfBoardPiece + 14] ===null 
             && cells[selectedPiece.indexOfBoardPiece + 14].classList.contains("noPieceHere") !== true
-            && viard[selectedPiece.indexOfBoardPiece + 7 ] < 13 && board[selectedPiece.indexOfBoardPiece + 7] !== null ){
+            && board[selectedPiece.indexOfBoardPiece + 7 ] < 13 && board[selectedPiece.indexOfBoardPiece + 7] !== null ){
                 selectedPiece.fourtheenthSpace =true;
             }
     }
