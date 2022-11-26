@@ -1,0 +1,72 @@
+
+header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
+
+.navbar_Menu{
+    display: flex;
+    /*justify-content:center;*/
+    
+}
+.navbar_Buttons{
+    background-color: rgb(163, 163, 224);
+    border: 1px solid black;
+    padding: 0.7rem 1.1rem 0.7rem 1.1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
+}
+
+article { 
+
+    text-align: center;
+    
+}
+
+.vegetables {
+    margin: 0 20px;
+    
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:  0;
+    border: 1px solid black;
+}
+
+/* Vegetable background colours*/
+
+.vegetables .Green{
+    background-color: rgb(132, 243, 132);
+}    
+
+.vegetables .Orange{
+    background-color: rgb(255, 166, 0);
+
+}
+
+.vegetables .Red{
+    background-color: rgb(255, 0, 0);
+
+}
+
+.vegetables .Yellow{
+    background-color: rgb(251, 255, 0);
+}
+/*-----------------------------*/
+.images{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 0.1rem;
+    margin: 0 10px;
+}
+
+ul{
+    list-style: none;
+}

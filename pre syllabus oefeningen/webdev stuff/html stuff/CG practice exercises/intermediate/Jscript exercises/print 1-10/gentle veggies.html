@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type="text/css" href="styles.css">
+        <script type= "module" src="jscript.js"></script> 
+        <title>Gentle Veggies</title>
+    </head>
+    <body>
+        <input id = "ctof" placeholder="20"> <input id = "ftoc" placeholder="68">
+        <button id = "convert">convert</button> 
+        <p><output id="output"></output></p>
+        <nav class= "navbar">
+            <ul class="navbar_Menu">
+                <li class= "navbar_Buttons"><a href="#top">Top of the Page</a></li>
+                <li class= "navbar_Buttons"><a href="#greenVegetables">Green Veggies</a></li>
+                <li class= "navbar_Buttons"><a href="#orangeVegetables">Orange Veggies</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Gentle Veggies (Gridlayout)</h1>
+        </header>
+            <!--- Green vegetables
+                ul 
+                li spinach 
+                kale 
+                broccoli
+                cucumber
+                lettuce 
+
+                Orange vegetables
+                carrot
+                sweet potatoes
+                peppers
+                pumpkin
+                tumeric-->
+        <article>
+            <h2> Always important to eat your veggies</h2>
+            <div class="vegetables gridContainer">    
+                <div id="greenVegetables" class="vegetables Green">
+                    <h3>Green Vegetables</h3>
+                    <ul class="veglists">
+                        <li>Spinach</li>
+                        <li>Kale</li>
+                        <li>Broccoli</li>
+                        <li>Cucumber</li>
+                        <li>Lettuce</li>
+                    </ul>
+                    <img src = "images/green.png" class="images green" alt="green">
+                </div>
+                <div id="orangeVegetables" class="vegetables Orange">
+                    <h3>Orange Vegetables</h3>
+                    <ul class="veglists">
+                        <li>Carrot</li>
+                        <li>Sweet potatoes</li>
+                        <li>Peppers</li>
+                        <li>Pumpkin</li>
+                        <li>Tumeric</li>          
+                    </ul>
+                    <img src= "images/orange.png" class="images orange" alt="orange">            
+                </div>
+                <div id="redVegetables" class="vegetables Red">
+                    <h3>Orange Vegetables</h3>
+                    <ul class="veglists">
+                        <li>Tomato</li>
+                        <li>Beetroot</li>
+                        <li>Peppers</li>
+                        <li>Radish</li>
+                        <li>Rhubarb</li>          
+                    </ul>
+                    <img src= "images/red.png" class="images red" alt="red">            
+                </div>
+                <div id="yellowVegetables" class="vegetables Yellow">
+                    <h3>Orange Vegetables</h3>
+                    <ul class="veglists">
+                        <li>Corn</li>
+                        <li>Squash</li>
+                        <li>Eggfruit</li>
+                        <li>Avocado</li>
+                        <li>Zucchi</li>          
+                    </ul>
+                    <img src= "images/yellow.png" class="images yellow" alt="orange">            
+                </div>
+            </div>    
+        </article> 
+        <footer></footer>   
+    </body>
+</html>

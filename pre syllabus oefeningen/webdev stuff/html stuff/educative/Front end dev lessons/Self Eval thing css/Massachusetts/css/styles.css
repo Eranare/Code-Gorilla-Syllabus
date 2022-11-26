@@ -1,0 +1,26 @@
+body {
+    border:solid 20px black;
+    padding: 20px;
+}
+header{
+    Border:solid 1px black;
+}
+
+#statename{
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
+  }
+  
+
+.cities{
+
+    background-color: black;
+    color: white;
+    padding: 10px;
+  } 
+
+  p{
+    font-size: 20;
+  }

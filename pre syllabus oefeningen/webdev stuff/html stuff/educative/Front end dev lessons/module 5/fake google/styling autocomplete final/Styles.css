@@ -1,0 +1,114 @@
+:root {
+    --light-grey: #ccc;
+    --item-hover-grey: #E6E6E6;
+    --button-grey: #757575;
+    --button-bg-grey: #f1f1f1;
+    --microphone-width: 1.5rem;
+  }  
+/*
+body {
+  background-color: black;
+} */
+
+.search {
+    width: 36rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    font-family: Arial;
+  }
+
+  .search-autosuggest {
+    box-shadow: 1px 4px 8px #D3D3D3;
+  }
+  
+  .search_bar {
+    position: relative;
+    border: 1px solid var(--light-grey);
+    border-radius: 2px;
+    box-shadow: 1px 4px 8px #D3D3D3;
+  }
+
+  .search_bar-autosuggest {
+    box-shadow: none;
+  }
+
+  .search_bar_input {
+    border: none;
+    width: calc(100% - var(--microphone-width) - 0.7rem);
+    padding: 0.6rem;
+    padding-right: calc(var(--microphone-width) + 0.1rem);
+    font-size: 16px;
+    font-family: Arial;
+    outline: none;
+  }
+  .search_bar_microphone {
+    width: var(--microphone-width);
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+  }
+  
+  .search_suggestions {
+    border: 1px solid var(--light-grey);
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  
+  .search_suggestions_list {
+    padding-right: 1rem;
+    line-height: 1.5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search_suggestions_list_result {
+    padding-left: 1rem;
+  }
+
+  /*
+  .search_suggestions_list_result:last-child {
+    border-bottom: 1px solid var(--light-grey);
+  } */
+  .search_suggestions_list{
+background-color: white;
+  }
+
+  .search_suggestions_list_result:hover {
+    background: var(--item-hover-grey);
+    cursor: default;
+  }
+  
+  .search_actions {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .search_actions-autosuggest {
+    margin: 0;
+    border: 1px solid var(--light-grey);
+    border-top: 0;
+    padding: 1rem 0 0.1rem 0;
+    background-color: white;
+  } 
+
+  .search_actions_action {
+    height: 2rem;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial;
+    color: var(--button-grey);
+    background: var(--button-bg-grey);
+    padding: 0.4rem 1rem;
+    outline: none;
+    border: none;
+    margin: 0.2 0.2rem;
+  }
+
+
+
+  .search_actions_action:hover {
+    color: black;
+    box-shadow: 0 0 1px #A9A9A9;
+  }

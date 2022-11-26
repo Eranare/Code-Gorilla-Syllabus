@@ -1,0 +1,55 @@
+/*header  
+        {
+
+
+        } */
+nav     
+        {
+        position:fixed;
+        top:0;
+        width: 100%;
+
+        }
+nav ul
+        {
+        
+        display: flex;
+        background-color:rgba(147, 220, 223, 0.747);
+        border: 1px solid rgba(95, 117, 177, 0.555);
+        padding: 0;
+        }
+nav li
+        {
+        flex: 0 0 auto;
+        margin: 8px;
+        background-color: rgba(147, 221, 223, 0.938);
+        color: #fff;
+        padding: 4px;
+        
+        
+        }
+    nav li:nth-child(1)
+        {
+        margin-right: auto;
+        margin-left: auto;
+
+        }
+article 
+        {
+        margin: auto;
+        padding: auto;
+        }
+
+
+footer div
+        {
+        margin: auto;
+        border-radius: 10px/5px; 
+        border: 2px solid #e9d08a;
+        background-image: linear-gradient(to bottom right, rgba(255, 255, 0, 0.356), rgba(121, 111, 111, 0.096), rgba(255, 0, 0, 0.301));
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 20px;
+        width: 20%;
+        }

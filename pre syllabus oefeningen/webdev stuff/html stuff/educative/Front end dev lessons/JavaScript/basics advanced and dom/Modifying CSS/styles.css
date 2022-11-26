@@ -1,0 +1,33 @@
+h3{
+  border: 3px solid black;
+  text-align: center;
+}
+
+
+.highlight {
+  color: violet;
+  background-color: black;
+  
+}
+
+.image {
+  opacity: 1;
+  width: 100%;
+  transition: opacity 1s ease;
+}
+
+
+.invisible {
+  opacity: 0; 
+}
+/*
+.visible{
+  opacity: 100;
+}
+didnt need this, just needed to toggle it ffs
+*/
+.imgContainer {
+  width: 50%;
+	margin: 20px auto;
+  border: 1px solid black;
+}

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    z-index: -3;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+  canvas {
+     
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+.videocontainer {
+    width: 100vw;
+    height: 100vh;
+}
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}

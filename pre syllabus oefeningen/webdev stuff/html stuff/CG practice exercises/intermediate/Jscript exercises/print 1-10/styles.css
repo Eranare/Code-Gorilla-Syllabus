@@ -1,0 +1,76 @@
+
+header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+}
+
+.navbar_Menu{
+    display: flex;
+    /*justify-content:center;*/
+    
+}
+.navbar_Buttons{
+    background-color: rgb(163, 163, 224);
+    border: 1px solid black;
+    padding: 0.7rem 1.1rem 0.7rem 1.1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
+}
+
+article { 
+
+    text-align: center;
+    
+}
+
+
+
+.gridContainer {
+    display: grid;
+
+    margin:  10px;
+    border: 1px solid black;
+}
+
+/* Vegetable background colours and grid start/end*/
+
+.vegetables .Green{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(132, 243, 132);
+}    
+
+.vegetables .Orange{
+    grid-column-start:1;
+    grid-column-end: 2;
+    background-color: rgb(255, 166, 0);
+
+}
+
+.vegetables .Red{
+    grid-column-start:2;
+    grid-column-end: 3;
+    background-color: rgb(255, 0, 0);
+
+}
+
+.vegetables .Yellow{
+    grid-column-start:1;
+    grid-column-end:3;
+    background-color: rgb(251, 255, 0);
+}
+/*-----------------------------*/
+.images{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 10px 10px;
+}
+
+ul{
+    list-style: none;
+}
