@@ -11,8 +11,9 @@
     $boat[6] = new RentBoat(7 , 3500, 275, 6, 10, 11.00, 15.00, 70, "None");
     $boat[7] = new RentBoat(8 , 3500, 275, 6, 10, 8.00, 9.00, 5, "Engine blew up");
     $boat[8] = new RentBoat(9 , 3500, 275, 6, 10, 9.00, 14.00, 40, "None");
-    $boat[9]  = new RentBoat(10 , 3500, 275, 6, 10, 13.00, 18.00, 45, "None"); 
-        
+    $boat[9]  = new RentBoat(10 , 3500, 275, 6, 10, 13.00, 18.00, 45, "None");
+
+//$boat[0] = new RentBoat();
 //Loop vars______________________________________
     $totalincome = 0;
     $totalrenttime = 0;

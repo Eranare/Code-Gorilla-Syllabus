@@ -18,10 +18,12 @@
     </header>
     <content class="main">
 <h1>Blok 2</h1>
+<h3><a href="../index.php">Back to main</a></h3>
 <h4><a href="Antwoordblad/Sheet.php">Answer Sheet</a></h4>  
 <h4><a href="../rsrc/Template App/index.php"> Template </h4>
-<h4><a href="../rsrc/Demo app/index.php"> Template </h4>
-<a href="finalex/gone boating/index.php">Boating</a>
+<h4><a href="../rsrc/Demo app/index.php"> Template </a></h4>
+<h4><a href="finalex/gone boating/index.php">Boating</a></h4>
+<h4><a href="../module 3/public/index.html">Educative Module 3</a></h4>
 <a href="#" >Laracasts</a>
     </content>
     <footer>

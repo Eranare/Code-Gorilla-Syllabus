@@ -160,7 +160,7 @@ The subclass will inherit all properties and methods existing within the parent 
 class pummel extends melee{
 
     public function pmlthrow(){
-       echo ("Pummel Throw with ".$this->name." deals ". $this->damage  *50 ." damage! <br>" );       
+       echo ("<br>Pummel Throw with ".$this->name." deals ". $this->damage  *50 ." damage! <br>" );       
     }
 }
 $weap1Pml =new pummel("Sword", "Slashing", 15, 1.5);
@@ -185,7 +185,7 @@ class pummel2 extends melee{
        
     }
     public function msg (){
-        echo ("Pummel Throw with ".$this->name." deals ". $this->thrDamage ." damage! <br>" );       
+        echo ("<br>Pummel Throw with ".$this->name." deals ". $this->thrDamage ." damage! <br>" );       
     }
 }
 $weap2Pml =new pummel2("Greatword", "Slashing", 45, 0.75,2000);

@@ -1,0 +1,42 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.flex {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    width: 600px;
+    padding: 50px;
+    margin-right: 25px;
+    background-color: black;
+}
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 22px;
+}

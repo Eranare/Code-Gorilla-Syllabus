@@ -93,9 +93,9 @@ echo ("<br>");
 <br>
 
 
-<h1>Module 3: </h1>
+<h3><a href="../index.php">Back to main</a></h3>
 <br>
-    <a href="Module 3/Public/index.html"> Module 3 stuff</a>
+
 <br>
 <h1>Bit empty below here</h1>
 <br>
