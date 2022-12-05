@@ -60,14 +60,10 @@ public function divide(){
 }
 
 }
-echo ("Moved the function calls to the operator echos inside the constructor:<br>");
-echo ("saves me a fair bit of retyping i see.<br> (After having done one of the end exercises.. apparently this is not something I should do)<br>");
+
 
 $mycalc = new MyCalculator( 12, 6);
-//$mycalc-> add(); // Displays 18
-//$mycalc-> subtract();
-//$mycalc-> multiply(); // Displays 72
-//$mycalc-> divide();
+
 echo "<br>";
 $mycalc2 = new MyCalculator (123,23);
 echo"<br>";

@@ -19,7 +19,7 @@ if ($numberOfKittens < 1) {
 for ($i = 1; $i <= $numberOfKittens; $i++) {
     ?>
     Cat <?php echo $i; ?>:
-    <img src="cat.png" width=175px height=87.5px alt="Cat <?php echo $i; ?>">
+    <img src="img/cat.png" width=175px height=87.5px alt="Cat <?php echo $i; ?>">
     <?php
 }
 

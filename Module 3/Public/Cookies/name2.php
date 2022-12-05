@@ -8,7 +8,6 @@
 <?php
 if (isset($_POST['name'])) {
     setcookie('name', $_POST['name']);
-    header('Location: random4.php'); //Header Function 
 }
 ?>
 <!DOCTYPE html>
@@ -25,7 +24,7 @@ if (isset($_POST['name'])) {
         <button type="submit">Submit</button>
 
     </p>
-    <a href ="random4.php">rng with cookie</a>
+    <a href ="random.php">rng with cookie</a>
 </form>
 </body>
 </html>

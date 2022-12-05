@@ -9,12 +9,12 @@
 
 //$numberOfKittens = $_GET['number'];
 
-$numberOfPictures = isset($_GET['number']) ? (int)$_GET['number'] : 1;
+$numberOfPictures = isset($_POST['number']) ? (int)$_POST['number'] : 1;
 if ($numberOfPictures < 1) {
     $numberOfPictures = 1;
 }
 
-$picture = isset($_GET['picture']) ? $_GET['picture'] : 'cat.png';
+$picture = isset($_POST['picture']) ? $_POST['picture'] : 'img/cat.png';
 
 for ($i = 1; $i <= $numberOfPictures; $i++) {
     ?>
@@ -26,15 +26,15 @@ for ($i = 1; $i <= $numberOfPictures; $i++) {
 
 ?>
 <!--Code below has protection build in to only take the numbers from the given input form-->
-<form>
+<form method="post">
         <div>
             <label for="picture">
                 Select a picture:
             </label>
       <?php
             $pictures = [
-    'cat.png' => 'Cat',
-    'niohcat.png' => 'Nioh2 Cat'
+    'img/cat.png' => 'Cat',
+    'img/niohcat.png' => 'Nioh2 Cat'
 ];
 ?>
 <select name="picture" id="picture">
@@ -43,7 +43,7 @@ for ($i = 1; $i <= $numberOfPictures; $i++) {
     <option value="<?php
         echo htmlspecialchars($filename, ENT_QUOTES);
         ?>"<?php
-        if (isset($_GET['picture']) && $_GET['picture'] === $filename) {
+        if (isset($_POST['picture']) && $_POST['picture'] === $filename) {
             ?> selected<?php
         }
         ?>>
@@ -58,8 +58,8 @@ for ($i = 1; $i <= $numberOfPictures; $i++) {
                 Number of pictures to show:
             </label>
             <input name="number" value="<?php
-                if (isset($_GET['number'])) {
-                print htmlspecialchars($_GET['number'], ENT_QUOTES); }
+                if (isset($_POST['number'])) {
+                print htmlspecialchars($_POST['number'], ENT_QUOTES); }
                 ?>">    
         </div>
         <div>

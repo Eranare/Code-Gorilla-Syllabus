@@ -14,7 +14,7 @@ if ($numberOfPictures < 1) {
     $numberOfPictures = 1;
 }
 
-$picture = isset($_POST['picture']) ? $_POST['picture'] : 'cat.png';
+$picture = isset($_POST['picture']) ? $_POST['picture'] : 'img/cat.png';
 
 for ($i = 1; $i <= $numberOfPictures; $i++) {
     ?>
@@ -33,8 +33,8 @@ for ($i = 1; $i <= $numberOfPictures; $i++) {
             </label>
       <?php
             $pictures = [
-    'cat.png' => 'Cat',
-    'niohcat.png' => 'Nioh2 Cat'
+    'img/cat.png' => 'Cat',
+    'img/niohcat.png' => 'Nioh2 Cat'
 ];
 ?>
 <select name="picture" id="picture">
