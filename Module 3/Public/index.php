@@ -14,6 +14,7 @@
         <button onclick="history.back()" style="position: fixed; left: 50px; top: 15px;">Go Back</button><h2>Educative Module 3:</h2>
         </nav>
    </header>
+   
     <content class="main">
     
     <h1>Serving resources and PHP scripts.</h1>
@@ -38,24 +39,16 @@
         <a href="Sessions/name.php">Sessions</a> Anonymous doesn't work anymore.<br>
         <a href="Sessions/namevardump.php">Session Files and Serialized Data.</a><br>
         <a href="Sessions/name2.php">Flash Messages.</a>Name is still set even if left empty, same as with the first Sessions<br>
-        <a href="">Using Flash Messages Everywhere.</a><br>
+        <a href="Sessions/name3.php">Using Flash Messages Everywhere.</a><br>
     <h3>Authentication</h3>
-        <a href=""></a>
+        <a href="../Secret.php">Secret</a><br>
+        <?php include(__DIR__ . '/Authent/login.php'); ?><br>
     <h3>PHP Project Structure</h3>
-        <a href=""></a> 
-    <h3>CRUD Part 1: Create</h3>
-        <a href=""></a>
-    <h3>CRUD Part 2: The Rest</h3>
-        <a href=""></a>
-    <h3>File Uploads</h3>
-        <a href=""></a>
-    <h3>Error Handling</h3>
-        <a href=""></a>
-    <h3>Automated Testing</h3>
-        <a href=""></a> 
-    <h3>Conclussion</h3>
-        <a href=""></a>
-</content>
+        <a href="../secondlogin.php">Header & Footer</a> 
+        <a href="../thirdlogin.php">navigation to header</a>
+    <h3>Continues in : </h3><a href = "../../Module 3 Remade/Public/index.php">remade</a>
+
+    </content>
 <footer> </footer>
 </body>
 

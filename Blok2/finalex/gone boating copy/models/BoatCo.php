@@ -35,7 +35,7 @@
         public function getBoatHighestFuel()
         {
             foreach ($this->boats as $boat) {
-                //If for fuel per minute
+                
                 if ($this->fuelpm <= $boat->getFuelPerMinute()) {
                     $this->fuelpm = $boat->getFuelPerMinute();
                     $this->boathighestfuel = $boat->boat(); //boatnumber
@@ -56,7 +56,7 @@
         public function getTotalRentTime(){
             $totalHours = 0;
             foreach ($this->boats as $boat) {
-            //echo "does this loop"; //it does
+            
                 $totalHours += $boat->getRentTime();
             }
             return $totalHours;
@@ -68,7 +68,7 @@
             $stringtocompare= "None";
             
             foreach ($this->boats as $boat) {
-                //loops once then gives up. found out why below
+                //looped once then gave up. found out why below
 
                 if ($stringtocompare != $boat->getDamage()) {
                     $boatsdamaged += 1;

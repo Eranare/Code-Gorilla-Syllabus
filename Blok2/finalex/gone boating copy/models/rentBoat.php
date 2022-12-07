@@ -11,7 +11,7 @@ class RentBoat{
     public $departure = 0; //rent start time
     public $return = 0; //rent end time
     public $hour =0; //Hours
-    public $rentincome = 0; //Income from rent per hour
+    
     public $fuel= 0; //fuel used in liters
     public $fuelcharge = 0; //Fuel charge, 5 eu per liter
     public $randfincome = 0; //Total income from fuel and rent 
@@ -34,18 +34,18 @@ class RentBoat{
         //input
     public function addRentStart($departure){
         $this->departure =$departure;
-        //echo $this->departure;
+   
     }
     public function addRentEnd($return){
         $this->return = $return;
-        //echo $this->return;
+   
     }
     public function addFueluse($fuel){
         $this->fuel = $fuel;
     }
     public function addDamage($damage){
         $this->damage = $damage;
-        //echo $this->damage;
+        
         
     }
     public function getRentStart(){
@@ -57,7 +57,7 @@ class RentBoat{
     public function getFuelUse(){
         return $this->fuel;
     }
-        //Calculate
+    
     public function getFuelCharge(){
         $fuelcharge = $this->fuel *5;
         return $fuelcharge;

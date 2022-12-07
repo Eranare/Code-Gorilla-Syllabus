@@ -1,23 +1,11 @@
 <?php
     
 //Object building_________________________________
-//Boat (Boatnumber, weight, engine horsepower, length in meters, Rent per hour  //Rent per hour move?
+//Boat (Boatnumber, weight, engine horsepower, length in meters, Rent per hour.
 
     $BoatRentCo = new BoatCo();
 // add boats
-    /*
-    $boat1 = new Boat(1, 3400, 250, 5.5, 10); 
-    $boat2 = new Boat(2 , 3500, 275, 6, 10);
-    $boat3 = new Boat(3 , 3500, 275, 6, 10); 
-    $boat4 = new Boat(4 , 3500, 275, 6, 10); 
-    $boat5 = new Boat(5 , 3500, 275, 6, 10); 
-    $boat6 = new Boat(6 , 3500, 275, 6, 10); 
-    $boat7 = new Boat(7 , 3500, 275, 6, 10);
-    $boat8 = new Boat(8 , 3500, 275, 6, 10);
-    $boat9 = new Boat(9 , 3500, 275, 6, 10);
-    $boat10  = new Boat(10 , 3500, 275, 6, 10);
-    */
-    //Rented boats
+
     $boat1 = new RentBoat(1, 3400, 250, 5.5, 150); 
     $boat2 = new RentBoat(2 , 3500, 275, 6, 250);
     $boat3 = new RentBoat(3 , 3500, 275, 6, 95); 
@@ -31,13 +19,12 @@
 
 
 //add parts per boat____________________________________
-//Boat
 //boat 1
-$boat1->addRentStart(9.00);
-$boat1->addRentEnd(18.00);
-$boat1->addFueluse(120);
-$boat1->addDamage("None");
-$boat1->getRentTime();
+$boat1->addRentStart(9.00); //Rent Start time
+$boat1->addRentEnd(18.00); //Rent End time
+$boat1->addFueluse(120);  //Fuel used
+$boat1->addDamage("None"); //Damage sustained
+$boat1->getRentTime(); //Difference between start and end time
 //boat 2
 $boat2->addRentStart(16.00);
 $boat2->addRentEnd(17.00);
@@ -92,10 +79,9 @@ $boat10->addRentEnd(18.00);
 $boat10->addFuelUse(45);
 $boat10->addDamage("None");
 $boat10->getRentTime();
-//move rented boats to BoatRentCo
+//rented boats added to BoatRentCo
 $BoatRentCo->addBoat($boat1);
 $BoatRentCo->addBoat($boat2);
-
 $BoatRentCo->addBoat($boat3);
 $BoatRentCo->addBoat($boat4);
 $BoatRentCo->addBoat($boat5);
@@ -104,10 +90,6 @@ $BoatRentCo->addBoat($boat7);
 $BoatRentCo->addBoat($boat8);
 $BoatRentCo->addBoat($boat9);
 $BoatRentCo->addBoat($boat10);
-//Loop vars______________________________________
-
-
-
 
 //outPut_______________________________________
   //  echo "Boat data";
