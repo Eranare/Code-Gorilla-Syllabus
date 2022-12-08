@@ -1,7 +1,7 @@
 <?php
 $title = "How did you get here?";
 
-include("/../../bootstrap.php");
+include("/../../_bootstrap.php");
 
 unset($_SESSION['authenticated_user']);
 

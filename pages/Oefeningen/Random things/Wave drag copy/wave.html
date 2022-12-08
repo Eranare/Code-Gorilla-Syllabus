@@ -9,15 +9,18 @@
 
     </style>
         <div id="container" class="wrapper"style= "position: absolute; overflow: hidden; display: grid;">
-        <div id="scene"><div data-depth="2"><canvas id = cw> </canvas></div>
-            <div data-depth="0.6"><iframe src="../Zelda game tut/Gamescreen.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" width="950" height ="950" style= "text-align: center;">
-            </iframe>
+            <div id="scene">
+                <div data-depth="2"><canvas id = cw> </canvas>
+                </div>
+                <div data-depth="0.6">
+                    <iframe src="../Zelda game tut/Gamescreen.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" width="950" height ="950" style= "text-align: center;"></iframe>
+                </div>
+                <div data-depth="0.5" style="left: 435px; top:380px;">
+                    <iframe src="../../../Blok1/index.php" width="900" height="800" scrolling = "no"></iframe>
+                </div>
             </div>
-            <div data-depth="0.5" style="left: 435px; top:380px;"><iframe src="../../../Blok1/index.php" width="900" height="800" scrolling = "no"></iframe></div>
-            
-          </div>
+        </div>
 
-</div>
 <script src="parallax.js"></script>
 <script > // From Mr P Solver:  https://youtu.be/5THnWDz9G0Y
     const canvas = document.getElementById("cw");
