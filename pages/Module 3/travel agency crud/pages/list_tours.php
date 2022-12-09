@@ -53,10 +53,15 @@ else {
         ?>
         <tr>
             <td>
-            <?php echo htmlspecialchars(
-                $tourData['destination'],
+            <a href="tour.php?id=<?php echo htmlspecialchars(
+                $tourData['id'],
                 ENT_QUOTES
-            ); ?>
+            ); ?>">
+                <?php echo htmlspecialchars(
+                    $tourData['destination'],
+                    ENT_QUOTES
+                ); ?>
+            </a> 
             </td>
             <td>
             <?php echo htmlspecialchars(
@@ -70,6 +75,9 @@ else {
                 ?>
             </td>
             <td>
+            <td>
+
+        
                     <a href="edit_tour.php?id=<?php
                     echo htmlspecialchars($tourData['id'], ENT_QUOTES);
                     ?>" class="btn btn-primary">Edit</a>

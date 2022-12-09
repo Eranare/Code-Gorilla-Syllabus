@@ -11,18 +11,21 @@ if (!isset($_GET['id'])) {
 
 
 $tourId = (int)$_GET['id'];
-$normalizedData = load_tour_data($tourId);
-
+$originalData = load_tour_data($tourId);
+$normalizedData = $originalData;
 $formErrors = [];
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $normalizedData = normalize_submitted_data($_POST);
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $normalizedData = array_merge(
+            $originalData,
+            normalize_submitted_data($_POST, $_FILES)
+        );
 
 
     $formErrors = validate_normalized_data($normalizedData);
 
     if (count($formErrors) === 0) {
-        $normalizedData['id'] = $tourId;
+        $normalizedData = process_image_upload($normalizedData);
         save_tour_data($normalizedData);
         $_SESSION['message'] = 'The tour was updated successfully';
         header('Location: list_tours.php');

@@ -1,4 +1,4 @@
-<form method="post">
+<form enctype="multipart/form-data" method="post">
        <div>
            <label for="destination">
                Destination:
@@ -52,6 +52,23 @@
            </label>
        </div>
        <div>
-           <button type="submit">Save</button>
-       </div>
+            <label for="picture">
+                Picture:
+            </label>
+            <?php
+    if (isset($normalizedData['picture'])) {
+        ?>
+        <a href="../public/uploads/<?php
+            echo htmlspecialchars(
+                $normalizedData['picture'], ENT_QUOTES
+            );
+        ?>">Current picture</a>
+        <?php
+    }
+    ?>
+            <input type="file" id="picture" name="picture">
+        </div>
+        <div>
+            <button type="submit">Save</button>
+        </div>
        </form>

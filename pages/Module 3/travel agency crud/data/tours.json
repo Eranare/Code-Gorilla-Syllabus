@@ -12,5 +12,24 @@
         "is_accessible": false,
         "id": 2,
         "is_deleted": true
+    },
+    {
+        "destination": "Berlin",
+        "number_of_tickets_available": 2,
+        "is_accessible": true,
+        "id": 3
+    },
+    {
+        "destination": "Berlin",
+        "number_of_tickets_available": 3,
+        "is_accessible": true,
+        "id": 4
+    },
+    {
+        "destination": "Berlin",
+        "number_of_tickets_available": 2,
+        "is_accessible": true,
+        "picture": "tour-5.jpg",
+        "id": 5
     }
 ]

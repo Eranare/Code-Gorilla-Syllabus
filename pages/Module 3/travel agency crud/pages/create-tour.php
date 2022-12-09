@@ -16,26 +16,43 @@ if (file_exists($toursJsonFile)) {
 
 $formErrors = [];
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Step 1: normalize the request data:
-    $normalizedData = normalize_submitted_data($_POST);
 
-    // Step 2: validate the normalized data
-    $formErrors = validate_normalized_data($normalizedData);
-    // Step 3: save the data if it's valid
-    $toursData = load_all_tours_data();
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (
+        isset($_FILES['picture']['error'])
+        && $_FILES['picture']['error'] === UPLOAD_ERR_OK
+    ) {
+        // Step 1: normalize the request data:
+        $normalizedData = normalize_submitted_data($_POST,  $_FILES);
+
+        // Step 2: validate the normalized data
+        $formErrors = validate_normalized_data($normalizedData);
+        // Step 3: save the data if it's valid
+        $toursData = load_all_tours_data();
         $normalizedData['id'] = count($toursData) + 1;
-        $toursData[] = $normalizedData;
+        if (is_uploaded_file($normalizedData['picture'])) {
+            
+            $filename = 'tour-' . $normalizedData['id'] . '.jpg';
+            $picturePath = __DIR__ . '/../public/uploads/' . $filename;
         
+            // Move the uploaded file to `public/uploads/`:
+            move_uploaded_file($_FILES['picture']['tmp_name'], $picturePath);
+        
+            // Set the filename so it will be saved too:
+            $normalizedData['picture'] = $filename;
+        }
+        
+        $toursData[] = $normalizedData;
+
 
         save_all_tours($toursData);
         $_SESSION['message'] = 'The new tour was saved successfully';
         header('Location: list_tours.php');
         exit;
-       
-    
-}
 
+
+    }
+}
 // Convert the tours data to JSON
 $jsonData = json_encode($toursData, JSON_PRETTY_PRINT);
 // Save the tours data to `data/tours.json`:
