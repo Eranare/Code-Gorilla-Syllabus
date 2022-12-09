@@ -1,0 +1,16 @@
+[
+    {
+        "destination": "Amsterdam",
+        "number_of_tickets_available": 3,
+        "is_accessible": false,
+        "id": 1,
+        "is_deleted": true
+    },
+    {
+        "destination": "Amsterdam",
+        "number_of_tickets_available": 4,
+        "is_accessible": false,
+        "id": 2,
+        "is_deleted": true
+    }
+]

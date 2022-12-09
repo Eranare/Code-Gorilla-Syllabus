@@ -12,12 +12,12 @@ $title = $title ?? 'PHP for the Web';
 <div class="container">
     <nav class="navbar navbar-expand-lg bg-light">
 <ul class="navbar-nav">
-<li class="nav-item"><a class="nav-link"  href="/opdrachten/code-gorilla-syllabus/pages/Module 3//Public/index.php">Homepage</a></li>
-    <li class="nav-item"><a class="nav-link" href="../Forms/random.php">Random</a></li>
-
+    <li class="nav-item"><a class="nav-link"  href="/opdrachten/code-gorilla-syllabus/pages/Module 3/Public/index.php">Homepage</a></li>
+    <li class="nav-item"><a class="nav-link" href="/opdrachten/code-gorilla-syllabus/pages/Module 3//travel agency crud/pages/list_tours.php">List tours</a></li>
 </ul>
 </nav>
 <ul>
+
 <?php
 if (isset($_SESSION['authenticated_user'])) {
     ?>
@@ -34,4 +34,4 @@ else {
 }
 ?>
 </ul>
-<?php include(__DIR__ . '/_flash_message.php');?>
+<?php include(__DIR__ . '/../_flash_message.php');?>
