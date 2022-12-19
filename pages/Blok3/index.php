@@ -87,10 +87,6 @@ echo ("<br>");
 
 ?>  
 <h1>Module 3: </h1>
-<br>
-    <a href="Module 3/Public/index.html"> Module 3 stuff</a>
-<br>
-<h1>Bit empty below here</h1>
 
 
 
@@ -106,3 +102,8 @@ echo ("<br>");
     </footer>
     
 </body>
+
+<?php 
+//Implement CV DATABASE..
+
+?>

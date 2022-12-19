@@ -59,7 +59,7 @@ include (__DIR__ ."/_header.php");
                 </div>  
                 
             </ul>
-            
+            --
         </nav>
     </header>
     <content class="main">

@@ -28,6 +28,12 @@ $title = $title ?? 'PHP for the Web';
             <li class="nav-item">
               <a class="nav-link" href="/opdrachten/Code-Gorilla-Syllabus/pages/module 3/Public/index.php">Module 3</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/opdrachten/Code-Gorilla-Syllabus/pages/oefeningen/animation/morde.html">Parallax</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/opdrachten/Code-Gorilla-Syllabus/pages/oefeningen/zelda game tut/gamescreen.html">Parallax</a>
+            </li>
         <?php
         if (isset($_SESSION['authenticated_user'])) {
             ?>
@@ -35,6 +41,9 @@ $title = $title ?? 'PHP for the Web';
                     You are logged in as:
                     <?php echo $_SESSION['authenticated_user']; ?>
                 </li>
+
+                <a class ="nav-link" href=/Opdrachten/Code-Gorilla-Syllabus/install.php>Install Database</a> 
+                <!--<a class ="nav-link" href=/Opdrachten/Code-Gorilla-Syllabus/install.php></a> -->
                 <li class="nav-item">
                     <a class="nav-link" href="/opdrachten/Code-Gorilla-Syllabus/logout.php">Log out</a>
                 </li>

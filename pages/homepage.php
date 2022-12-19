@@ -11,7 +11,8 @@ include(__DIR__ . '/../_header.php');
             ?>
                 
                 
-                    <a class="nav-link" href="/opdrachten/Code-Gorilla-Syllabus/logout.php">Stuff here</a>
+                    <a class="nav-link" href="/opdrachten/Code-Gorilla-Syllabus/logout.php">Log out</a>
+                    <a class ="nav-link" href="/Opdrachten/Code-Gorilla-Syllabus/Module 4/index.php">Install Database</a> 
                 
             <?php
         } else {
