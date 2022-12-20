@@ -5,7 +5,7 @@ ob_start();
 require 'views/nav.php';
 
 $request = $_SERVER['REQUEST_URI'];
-require_once "/controller/common.php";
+require_once "controllers/common.php";
 
 switch ($request) {
 
@@ -38,10 +38,11 @@ switch ($request) {
         require __DIR__ . 'controllers/project.php';
         break;
 
-    default:
-        http_response_code(404);
-        require __DIR__ . 'views/404.php';
+    case(http_response_code(404));
+        require __DIR__ . '/views/404.php';
         break;
+    default:
+    break;
 }
 ?>
 <div class="welcome">
