@@ -1,7 +1,0 @@
-echo en print worden beide gebruikt voor output
-echo statements hebben geen value, print statements wel (in theorie kan print dus gebruikt worden voor expressions, zou t zelf nog niet zommaar doen maar misschien zijn er use cases)
-
-Echo statements kunnen ook meerdere parameters tegelijk gebruiken (maar dit lijkt voor mij nogmaals zonder noodzaak zover)
-(zijn echo en print de enige manieren om tekst in php uit te drukken in html?)
-
-echo is marginaal sneller dan print, goed om te weten voor als er veel meerdere echo of prints met variables nodig zijn

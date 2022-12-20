@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    
+</head>
+<body>
+    <style>  
+
+       body{ background-color: rgb(0, 0, 0);
+} 
+
+    </style>
+
+        <div id="container" class="wrapper"style= "position: absolute; overflow: hidden; display: grid;">
+            <div id="scene" >
+                <div data-depth="1"><canvas id = wave width="2000" height ="1090" > </canvas>                
+                </div>
+                <!--Image split by Ethan-->
+                <div data-depth="0.5"><img src ="project morde/Morde_BG.png" width="1980" height ="1320">
+                </div>
+                <div data-depth="0.06">
+                    <img src="project morde/Morde.png" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0" width="1850" height ="1040" style= "text-align: center;"></iframe>
+                </div>
+                <div data-depth="0.05" >
+                    <img src="project morde/Morde_mace.png" width="1910" height="1070" scrolling = "no"></iframe>
+                </div>
+
+            </div>
+        </div>
+        <audio
+        controls
+        src="project morde/PROJECT Mordekaiser Theme - Absolution.mp3"
+        id="audio">
+        
+              <div className="App">
+        <audio
+          controls
+          src="https://eyenight.b-stud.com/mp3.php"
+          id="audio"
+          crossOrigin="anonymous"
+        />
+        <canvas id="output" height="200" width="500" />
+      </div>
+
+<script src="parallax.js"></script>
+<script >
+    
+    const canvas = document.getElementById("wave"); 
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene, {
+      relativeInput: true
+    });
+
+
+
+    
+    addEventListener("mousemove", (e) => {
+        mouseY = e.clientY;
+        mouseX = e.clientX;
+    }
+    );
+    
+    addEventListener("mousedown", (e) => {
+        
+        music.loop=true;
+        music.play();
+    
+    },
+    );
+    
+    
+    addEventListener("resize", () => setSize());
+    function setSize(){
+        canvas.height = innerHeight -50;
+        canvas.width = innerWidth -50;
+    }
+    
+    
+    
+        setSize();
+    
+
+
+
+
+
+
+
+    </script>
+
+
+
+</body>

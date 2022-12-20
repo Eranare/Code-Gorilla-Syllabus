@@ -1,5 +1,0 @@
-webflow is handige tool om met een gui de front end op te zetten voor simpele sites------->  https://webflow.com/ 
-Bootstrap
-Tailwind is een css framework als bootstrap (maar zonder predefined classes wat voor nut dat ook heeft)
-
-Laravel
